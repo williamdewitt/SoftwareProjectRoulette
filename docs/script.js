@@ -2,10 +2,8 @@
 
 document.addEventListener('DOMContentLoaded', (event) => {
     const categories = {
-        "Programming Language": ["JavaScript", "Python", "Java", "C#", "Ruby"],
-        "Framework": ["React", "Vue", "Angular", "Django", "Flask"],
-        "Persistent Storage": ["MySQL", "PostgreSQL", "MongoDB", "SQLite", "Firebase"],
-        "APIs": ["REST API", "GraphQL", "SOAP", "gRPC", "JSON-RPC"]
+        "Project Type": ["Console", "Api"],
+        "Persistent Storage": ["MySQL", "PostgreSQL", "MongoDB", "SQLite", "MsSQL", "FlatFile"]
     };
 
     function getRandomElement(arr) {
