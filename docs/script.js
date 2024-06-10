@@ -2,6 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', (event) => {
     const categories = {
+        "Application": ["ToDo", "Vending Machine", "Parking Pay Station", "Bank ATM"],
         "Project Type": ["Console", "Api"],
         "Persistent Storage": ["MySQL", "PostgreSQL", "MongoDB", "SQLite", "MsSQL", "FlatFile"]
     };
